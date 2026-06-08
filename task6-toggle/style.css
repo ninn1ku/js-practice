@@ -1,0 +1,28 @@
+#toggleBtn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff23560;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.toggle-off {
+    margin: 1em 0;
+    width: 100px;
+    background: #ff000030;
+    border: 2px solid #ff006a;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.toggle-on {
+    margin: 1em 0;
+    width: 100px;
+    background: #18921c30;
+    border: 2px solid #00ff08;
+    padding: 1em;
+    border-radius: 8px;
+}

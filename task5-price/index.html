@@ -9,7 +9,17 @@
 </head>
 
 <body>
+    <input type="number" id="priceInput" placeholder="Введите цену">
+    <button id="priceBtn">Проверить</button>
+    <p id="priceResult"></p>
 
+    <ul class="price-rules">
+        <li>Меньше 0 - ошибка</li>
+        <li>0 - Бесплатно</li>
+        <li>1 – 999 - Дешёвый товар</li>
+        <li>1000 – 10000 - Обычный товар</li>
+        <li>Больше 10000 - Дорогой товар</li>
+    </ul>
 </body>
 
 </html>

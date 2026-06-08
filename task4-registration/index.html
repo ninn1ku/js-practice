@@ -10,7 +10,6 @@
 <body>
 
   <h1>Задание 1. Регистрация</h1>
-  <div id="result"><h1>Result</h1></div>
 
   <form action="#" method="post" onsubmit="alert('Форма отправлена!'); return false;"
     onreset="return confirm('Очистить форму?')">
@@ -21,7 +20,7 @@
       <p>
         <label>
           Имя *<br>
-          <input type="text" name="firstname" required placeholder="Имес">
+          <input type="text" id="nameInput" name="firstname" required placeholder="Имес">
         </label>
       </p>
     </fieldset>
@@ -31,7 +30,7 @@
       <p>
         <label>
           Email *<br>
-          <input type="email" name="email" required placeholder="email@example.com">
+          <input type="email" id="emailInput" name="email" required placeholder="email@example.com">
         </label>
       </p>
     </fieldset>
@@ -42,14 +41,14 @@
       <p>
         <label>
           Пароль *<br>
-          <input type="password" name="password" required minlength="8" placeholder="Минимум 8 символов">
+          <input type="password" id="pwdInput" name="password" required minlength="8" placeholder="Минимум 8 символов">
         </label>
       </p>
 
       <p>
         <label>
           Подтверждение пароля *<br>
-          <input type="password" name="password_confirm" required minlength="8" placeholder="Минимум 8 символов">
+          <input type="password" id="pwdConfirm" name="password_confirm" required minlength="8" placeholder="Минимум 8 символов">
         </label>
       </p>
     </fieldset>
@@ -61,8 +60,10 @@
       </label>
     </p>
 
+    <p id="result"></p>
+
     <p>
-      <button type="submit">Зарегистрироваться</button>
+      <button type="submit" id="submitBtn">Зарегистрироваться</button>
       <button type="reset">Очистить</button>
     </p>
 

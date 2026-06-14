@@ -43,8 +43,8 @@ function renderCart() {
     for (let item of cart) {
         cartList.innerHTML += `
             <li>
-                ${item.title} —
-                ${item.count} шт. —
+                ${item.title} -
+                ${item.count} шт. -
                 ${item.price} ₽
             </li>
         `;

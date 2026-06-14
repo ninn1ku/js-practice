@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(0deg, #ff0e7249 50%, #4ca0af98 3%);
+    color: #f0f0f0;
+    padding: 2em;
+}
+
+#message {
+    padding: 0.75em 1em;
+    background: #44444477;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+#catalog {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #44444477;
+    border-radius: 12px;
+    padding: 1em;
+    border: 1px solid #ffffff20;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card p {
+    margin: 0;
+    color: #ffe066;
+}
+
+.cart-btn {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.delete-btn {
+    background: transparent;
+    border: 1px solid #ff0e72;
+    color: #ff0e72;
+    border-radius: 6px;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cart-btn:hover {
+    opacity: 0.8;
+}
+
+.delete-btn:hover {
+    background: #ff0e7230;
+}

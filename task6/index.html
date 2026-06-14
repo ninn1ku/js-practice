@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Фильтр каталога</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Поиск...">
+    <select id="categorySelect">
+      <option value="">Все категории</option>
+      <option value="Периферия">Периферия</option>
+      <option value="Техника">Техника</option>
+      <option value="Аксессуары">Аксессуары</option>
+    </select>
+    <select id="sortSelect">
+      <option value="">По умолчанию</option>
+      <option value="asc">Цена: по возрастанию</option>
+      <option value="desc">Цена: по убыванию</option>
+    </select>
+  </div>
+  <div id="catalog"></div>
+</body>
+</html>

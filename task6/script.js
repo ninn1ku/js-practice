@@ -77,7 +77,7 @@ function renderCart() {
         <span class="cart-title">${p.title}</span>
         <span class="cart-count">${p.count} шт.</span>
         <span class="cart-price">${p.price * p.count} ₽</span>
-        <button class="btn-remove" onclick="removeFromCart(${p.id})">✕</button>
+        <button class="btn-remove" onclick="removeFromCart(${p.id})">Х</button>
       </li>
     `;
   });

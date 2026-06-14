@@ -1,0 +1,137 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+    background: #f2f2f7;
+    color: #1c1c1e;
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#taskInput {
+    width: calc(100% - 120px);
+    height: 50px;
+
+    border: none;
+    outline: none;
+
+    background: white;
+    border-radius: 14px;
+
+    padding: 0 16px;
+    font-size: 16px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#addBtn {
+    width: 100px;
+    height: 50px;
+
+    border-radius: 14px;
+
+    background: #007aff;
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+    margin-left: 10px;
+
+    transition: 0.2s;
+}
+
+#addBtn:hover {
+    filter: brightness(1.08);
+}
+
+#addBtn:active {
+    transform: scale(0.96);
+}
+
+#stats {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #6e6e73;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+li {
+    background: white;
+    border-radius: 18px;
+
+    padding: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+    transition: 0.2s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+}
+
+li span {
+    font-size: 16px;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #8e8e93;
+}
+
+.task-btns {
+    display: flex;
+    gap: 8px;
+}
+
+.done-btn,
+.delete-btn {
+    width: 36px;
+    height: 36px;
+
+    border: none;
+    border-radius: 50%;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.done-btn {
+    background: #34c759;
+    color: white;
+}
+
+.delete-btn {
+    background: #ff3b30;
+    color: white;
+}
+
+.done-btn:hover,
+.delete-btn:hover {
+    filter: brightness(1.1);
+}
+
+.done-btn:active,
+.delete-btn:active {
+    transform: scale(0.92);
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}

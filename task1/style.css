@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  padding: 1em;
+  background: #976ba883;
+  color: #f0f0f0;
+}
+
+#catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card {
+  background: #2ab4488c;
+  border: 1px solid #ffffff30;
+  border-radius: 8px;
+  padding: 1em 1.5em;
+}

@@ -1,123 +1,28 @@
 body {
-  font-family: sans-serif;
-  background: #1e1e2e;
-  color: #f0f0f0;
-  padding: 1em;
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 30px auto;
 }
 
-.shop {
-  display: flex;
-  gap: 2em;
-  align-items: flex-start;
+h1 {
+    text-align: center;
 }
 
-.catalog {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
+ul {
+    padding: 0;
+    list-style: none;
 }
 
-.product-card {
-  background: #ffffff15;
-  border: 1px solid #ffffff30;
-  border-radius: 10px;
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  gap: 1em;
+li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-.product-card h3 {
-  flex: 1;
-  margin: 0;
-}
-
-.product-card p {
-  margin: 0;
-  color: gold;
-  font-weight: bold;
-}
-
-.product-card button {
-  background: #0eff2e8e;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 0.4em 0.8em;
-  cursor: pointer;
-  transition: opacity 0.3s;
-}
-
-.product-card button:hover {
-  opacity: 0.8;
-}
-
-.cart {
-  width: 320px;
-  background: #ffffff10;
-  border-radius: 12px;
-  padding: 1em;
-  border: 1px solid #ffffff30;
-}
-
-.cart ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-}
-
-.cart-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75em;
-  background: #ffffff10;
-  border-radius: 8px;
-  padding: 0.75em;
-}
-
-.cart-title {
-  flex: 1;
-}
-
-.cart-count {
-  opacity: 0.6;
-  font-size: 0.9em;
-}
-
-.cart-price {
-  color: #ffe066;
-  font-weight: bold;
-}
-
-.btn-remove {
-  background: transparent;
-  border: 1px solid #ff0e72;
-  color: #ff0e72;
-  border-radius: 6px;
-  padding: 0.2em 0.5em;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.btn-remove:hover {
-  background: #ff0e7230;
-}
-
-.empty {
-  opacity: 0.5;
-  font-style: italic;
-}
-
-#cartTotal {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: 1px solid #ffffff30;
-}
-
-#cartTotal p {
-  margin: 0.25em 0;
+#result {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #333;
 }

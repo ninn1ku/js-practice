@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background: #1e1e2e;
+  color: #f0f0f0;
+  padding: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 0.75em;
+  background: #ffffff15;
+  border-bottom: 2px solid #ffffff30;
+  color: #ffe066;
+}
+
+td {
+  padding: 0.75em;
+  border-bottom: 1px solid #ffffff15;
+}
+
+tr:hover td {
+  background: #ffffff08;
+}
+
+.status {
+  padding: 0.25em 0.75em;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.Доставлен {
+  background: #4caf5030;
+  color: #4caf50;
+  border: 1px solid #4caf5060;
+}
+
+.В.пути {
+  background: #ffe06630;
+  color: #ffe066;
+  border: 1px solid #ffe06660;
+}
+
+.Обрабатывается {
+  background: #2196f330;
+  color: #2196f3;
+  border: 1px solid #2196f360;
+}

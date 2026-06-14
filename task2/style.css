@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background: #1e1e2e;
+  color: #f0f0f0;
+  padding: 1em;
+}
+
+.category-block {
+  margin-bottom: 2em;
+}
+
+.category-block h3 {
+  color: #ffe066;
+  margin: 0 0 0.75em;
+  border-bottom: 1px solid #ffffff20;
+  padding-bottom: 0.5em;
+}
+
+.cards-row {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff10;
+  border-radius: 10px;
+  padding: 1em;
+  border: 1px solid #ffffff20;
+  min-width: 150px;
+}
+
+.card h4 {
+  margin: 0 0 0.5em;
+}
+
+.price {
+  color: #ffe066;
+  font-weight: bold;
+  margin: 0;
+}
